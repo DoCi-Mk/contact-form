@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | ارتباط با ما</title>
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/f2b280f05d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="right">
+        <h2>تماس با <span>من</span></h2>
+        <p>پیام شما میتواند ارتباط با من،انتقاد،پیشنهاد و ... باشد</p>
+        <form class="contact-form" action="#" method="POST">
+          <div class="flex-form">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="نام"
+            />
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              required
+              placeholder="نام خانوادگی"
+            />
+          </div>
+          <div class="flex-form">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="پست الکترونیکی"
+            />
+            <input
+              type="number"
+              id="number"
+              name="number"
+              required
+              placeholder="شماره تماس"
+            />
+          </div>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            required
+            placeholder="موضوع پیام"
+          />
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="توضیحات"
+          ></textarea>
+
+          <input id="button" type="submit" value="ارسال" />
+        </form>
+      </div>
+      <div class="left">
+        <div class="contact-img">
+          <img src="/undraw_terms_re_6ak4.svg" alt="Contact" />
+        </div>
+        <div class="social-icon">
+          <div class="icon-row location">
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <h3>گلستان - گرگان</h3>
+          </div>
+          <div class="icon-row email">
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+            <h3>info@soroushmirkazemi.ir</h3>
+          </div>
+          <div class="icon-row number">
+            <span>
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <h3>09123456789</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
